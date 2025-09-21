@@ -1,0 +1,38 @@
+# Core web framework
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+
+# Streamlit for dashboard
+streamlit==1.28.1
+
+# Database - sqlite3 is built-in, no installation needed
+
+# Document parsing
+PyMuPDF==1.23.8
+pdfplumber==0.10.3
+python-docx==1.1.0
+docx2txt==0.8
+
+# Text processing and NLP
+spacy==3.7.2
+nltk==3.8.1
+scikit-learn==1.3.2
+numpy==1.24.3
+pandas==2.1.4
+
+# Embeddings and semantic search
+sentence-transformers==2.2.2
+chromadb==0.4.18
+faiss-cpu==1.7.4
+
+google-generativeai==0.3.2
+
+# Text similarity and matching
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.23.0
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+typing-extensions==4.8.0
